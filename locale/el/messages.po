@@ -1,0 +1,60 @@
+# Greek translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-10-22 19:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: el\n"
+"Language-Team: el <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+msgid "_spec.name"
+msgstr ""
+
+msgid "_spec.description"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.outcolname.name"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.name"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.date.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.time_minutes.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.time_seconds.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.year.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.month.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.day.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.hour.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.minute.label"
+msgstr ""
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.second.label"
+msgstr ""
+

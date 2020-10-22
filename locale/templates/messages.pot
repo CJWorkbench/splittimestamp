@@ -1,0 +1,52 @@
+#. default-message: Split Timestamp
+msgid "_spec.name"
+msgstr ""
+
+#. default-message: Turn Timestamp column into Text and Numbers
+msgid "_spec.description"
+msgstr ""
+
+#. default-message: Output column name
+msgid "_spec.parameters.outputs.child_parameters.outcolname.name"
+msgstr ""
+
+#. default-message: Date part
+msgid "_spec.parameters.outputs.child_parameters.part.name"
+msgstr ""
+
+#. default-message: Date (YYYY-MM-DD)
+msgid "_spec.parameters.outputs.child_parameters.part.options.date.label"
+msgstr ""
+
+#. default-message: Time of day (hh:mm)
+msgid "_spec.parameters.outputs.child_parameters.part.options.time_minutes.label"
+msgstr ""
+
+#. default-message: Time of day (hh:mm:ss)
+msgid "_spec.parameters.outputs.child_parameters.part.options.time_seconds.label"
+msgstr ""
+
+#. default-message: Year
+msgid "_spec.parameters.outputs.child_parameters.part.options.year.label"
+msgstr ""
+
+#. default-message: Month
+msgid "_spec.parameters.outputs.child_parameters.part.options.month.label"
+msgstr ""
+
+#. default-message: Day (of month)
+msgid "_spec.parameters.outputs.child_parameters.part.options.day.label"
+msgstr ""
+
+#. default-message: Hour (of day)
+msgid "_spec.parameters.outputs.child_parameters.part.options.hour.label"
+msgstr ""
+
+#. default-message: Minute (of hour)
+msgid "_spec.parameters.outputs.child_parameters.part.options.minute.label"
+msgstr ""
+
+#. default-message: Second (of minute)
+msgid "_spec.parameters.outputs.child_parameters.part.options.second.label"
+msgstr ""
+

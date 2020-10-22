@@ -1,0 +1,35 @@
+id_name: splittimestamp
+name: Split Timestamp
+category: Analyze
+icon: calendar
+description: Turn Timestamp column into Text and Numbers
+parameters:
+- id_name: colname
+  name: ''
+  type: column
+  column_types: [ timestamp ]
+- id_name: timezone
+  name: ''
+  type: timezone
+- id_name: outputs
+  name: ""
+  type: list
+  child_parameters:
+  - id_name: outcolname
+    name: Output column name
+    type: string
+  - id_name: part
+    name: Date part
+    type: menu
+    default: date
+    options:
+    - { value: date, label: Date (YYYY-MM-DD) }
+    - { value: time_minutes, label: "Time of day (hh:mm)" }
+    - { value: time_seconds, label: "Time of day (hh:mm:ss)" }
+    - separator
+    - { value: year, label: Year }
+    - { value: month, label: Month }
+    - { value: day, label: Day (of month) }
+    - { value: hour, label: Hour (of day) }
+    - { value: minute, label: Minute (of hour) }
+    - { value: second, label: Second (of minute) }
