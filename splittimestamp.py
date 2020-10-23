@@ -4,13 +4,19 @@ from typing import NamedTuple
 import pandas as pd
 
 
+def _null_safe_strftime(series: pd.DatetimeIndex, f: str):
+    """Call series.strftime(f) ... with nulls converted to None."""
+    ret = series.strftime(f)
+    return ret.putmask(series.isna(), None)
+
+
 def _extract(series: pd.DatetimeIndex, part: str) -> pd.Index:
     if part == "date":
-        return series.strftime("%Y-%m-%d")
+        return _null_safe_strftime(series, "%Y-%m-%d")
     elif part == "time_minutes":
-        return series.strftime("%H:%M")
+        return _null_safe_strftime(series, "%H:%M")
     elif part == "time_seconds":
-        return series.strftime("%H:%M:%S")
+        return _null_safe_strftime(series, "%H:%M:%S")
     elif part == "year":
         return series.year
     elif part == "month":
@@ -47,7 +53,8 @@ def render(table, params):
                 del table[outcolname]
                 if nixed_index < index:
                     index -= 1
-            table.insert(index, output["outcolname"], _extract(dt, output["part"]))
+            out_column = _extract(dt, output["part"])
+            table.insert(index, output["outcolname"], out_column)
             index += 1
 
     return table

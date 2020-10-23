@@ -45,18 +45,16 @@ def test_render_date():
     assert_frame_equal(result, pd.DataFrame({"B": ["2000-01-01", "2001-02-03", None]}))
 
 
-def test_render_time_minutes():
+def test_render_date_null_time_is_none():
     result = render(
-        pd.DataFrame(
-            {"A": [dt(2000, 1, 1, 2, 3, 4), dt(2001, 2, 3, 13, 0, 6), pd.NaT]}
-        ),
+        pd.DataFrame({"A": [dt(2000), pd.NaT]}),
         {
             "colname": "A",
             "timezone": "UTC",
             "outputs": [{"outcolname": "B", "part": "date"}],
         },
     )
-    assert_frame_equal(result, pd.DataFrame({"B": ["02:03", "13:00", None]}))
+    assert result["B"][1] is None
 
 
 def test_render_time_minutes():
@@ -308,3 +306,15 @@ def test_render_timezone_positive_offset():
             }
         ),
     )
+
+
+def test_render_date_timezone_converted_null_time_is_none():
+    result = render(
+        pd.DataFrame({"A": [dt(2000, 1, 2), pd.NaT]}),
+        {
+            "colname": "A",
+            "timezone": "Pacific/Honolulu",
+            "outputs": [{"outcolname": "B", "part": "date"}],
+        },
+    )
+    assert result["B"][1] is None
