@@ -2,16 +2,20 @@
 msgid "_spec.name"
 msgstr ""
 
-#. default-message: Turn Timestamp column into Text and Numbers
+#. default-message: Transform Timestamp column into Text and Numbers
 msgid "_spec.description"
 msgstr ""
 
-#. default-message: Output column name
-msgid "_spec.parameters.outputs.child_parameters.outcolname.name"
+#. default-message: Timestamp column
+msgid "_spec.parameters.colname.name"
 msgstr ""
 
-#. default-message: Date part
-msgid "_spec.parameters.outputs.child_parameters.part.name"
+#. default-message: Desired column names and formats
+msgid "_spec.parameters.outputs.name"
+msgstr ""
+
+#. default-message: Column name
+msgid "_spec.parameters.outputs.child_parameters.outcolname.placeholder"
 msgstr ""
 
 #. default-message: Date (YYYY-MM-DD)

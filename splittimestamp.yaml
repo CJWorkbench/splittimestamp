@@ -2,24 +2,25 @@ id_name: splittimestamp
 name: Split Timestamp
 category: Analyze
 icon: calendar
-description: Turn Timestamp column into Text and Numbers
+description: Transform Timestamp column into Text and Numbers
 parameters:
 - id_name: colname
-  name: ''
+  name: Timestamp column
   type: column
   column_types: [ timestamp ]
 - id_name: timezone
-  name: ''
+  name: Desired timezone
   type: timezone
 - id_name: outputs
-  name: ""
+  name: Desired column names and formats
   type: list
   child_parameters:
   - id_name: outcolname
-    name: Output column name
+    name: ''
+    placeholder: Column name
     type: string
   - id_name: part
-    name: Date part
+    name: ''
     type: menu
     default: date
     options:
