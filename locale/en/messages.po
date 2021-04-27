@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-22 15:47+0000\n"
+"POT-Creation-Date: 2021-04-26 15:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -38,7 +38,19 @@ msgid "_spec.parameters.outputs.child_parameters.outcolname.placeholder"
 msgstr "Column name"
 
 msgid "_spec.parameters.outputs.child_parameters.part.options.date.label"
-msgstr "Date (YYYY-MM-DD)"
+msgstr "Date"
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.dateweek.label"
+msgstr "Date – week starting Monday"
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.datemonth.label"
+msgstr "Date – month"
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.datequarter.label"
+msgstr "Date – quarter"
+
+msgid "_spec.parameters.outputs.child_parameters.part.options.dateyear.label"
+msgstr "Date – year"
 
 msgid "_spec.parameters.outputs.child_parameters.part.options.time_minutes.label"
 msgstr "Time of day (hh:mm)"
@@ -47,10 +59,10 @@ msgid "_spec.parameters.outputs.child_parameters.part.options.time_seconds.label
 msgstr "Time of day (hh:mm:ss)"
 
 msgid "_spec.parameters.outputs.child_parameters.part.options.year.label"
-msgstr "Year"
+msgstr "Year (number)"
 
 msgid "_spec.parameters.outputs.child_parameters.part.options.month.label"
-msgstr "Month"
+msgstr "Month (of year)"
 
 msgid "_spec.parameters.outputs.child_parameters.part.options.day.label"
 msgstr "Day (of month)"

@@ -22,8 +22,24 @@ msgstr ""
 msgid "_spec.parameters.outputs.child_parameters.outcolname.placeholder"
 msgstr ""
 
-#. default-message: Date (YYYY-MM-DD)
+#. default-message: Date
 msgid "_spec.parameters.outputs.child_parameters.part.options.date.label"
+msgstr ""
+
+#. default-message: Date – week starting Monday
+msgid "_spec.parameters.outputs.child_parameters.part.options.dateweek.label"
+msgstr ""
+
+#. default-message: Date – month
+msgid "_spec.parameters.outputs.child_parameters.part.options.datemonth.label"
+msgstr ""
+
+#. default-message: Date – quarter
+msgid "_spec.parameters.outputs.child_parameters.part.options.datequarter.label"
+msgstr ""
+
+#. default-message: Date – year
+msgid "_spec.parameters.outputs.child_parameters.part.options.dateyear.label"
 msgstr ""
 
 #. default-message: Time of day (hh:mm)
@@ -34,11 +50,11 @@ msgstr ""
 msgid "_spec.parameters.outputs.child_parameters.part.options.time_seconds.label"
 msgstr ""
 
-#. default-message: Year
+#. default-message: Year (number)
 msgid "_spec.parameters.outputs.child_parameters.part.options.year.label"
 msgstr ""
 
-#. default-message: Month
+#. default-message: Month (of year)
 msgid "_spec.parameters.outputs.child_parameters.part.options.month.label"
 msgstr ""
 

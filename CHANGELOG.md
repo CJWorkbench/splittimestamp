@@ -1,3 +1,9 @@
+2021-04-27
+----------
+
+* "Date" is now output as Date instead of Text.
+* Add new Date choices: Week, Month, Quarter, Year.
+
 2020-10-26
 ----------
 
