@@ -1,6 +1,7 @@
 id_name: splittimestamp
 name: Split Timestamp
 category: Analyze
+help_url: articles/5222644
 icon: calendar
 description: Transform Timestamp column into Text and Numbers
 parameters:
